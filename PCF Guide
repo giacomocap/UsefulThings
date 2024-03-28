@@ -10,7 +10,7 @@ Clear profiles
 pac auth clear
 
 Add new profile
-pac auth create --name MyOrg-SPN --applicationId 00000000-0000-0000-0000-000000000000 --clientSecret $clientSecret --tenant 00000000-0000-0000-0000-000000000000
+pac auth create --name MyOrg-SPN --applicationId 00000000-0000-0000-0000-000000000000 --clientSecret $clientSecret --tenant 00000000-0000-0000-0000-000000000000 --environment https://url
 
 To push project
 pac pcf push -pp tb -f
