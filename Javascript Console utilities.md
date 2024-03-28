@@ -41,8 +41,8 @@ const findKey = (obj, target, timeout) => {
 ```
 
 how to use it
-```
+```javascript
 const foo = {data01: 'rand01', data: {data21: 'rand', data2: { data3: 'worked' } }}
 
-console .log (findKey (foo, 'worked'))
+console .log (findKey (foo, 'worked', 500))
 ```
