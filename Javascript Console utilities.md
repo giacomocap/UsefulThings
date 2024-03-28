@@ -1,6 +1,6 @@
 find the key of a value in a nested object recursively.
 it includes a failsafe to stop it after x milliseconds
-```
+```javascript
 function * nestedEntries(obj, timeout) {
   let expired = false;
   const startTime = Date.now();
