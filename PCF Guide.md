@@ -15,7 +15,7 @@ pac auth clear
 
 Add new profile
 ```
-pac auth create --name MyOrg-SPN --applicationId 00000000-0000-0000-0000-000000000000 --clientSecret $clientSecret --tenant 00000000-0000-0000-0000-000000000000 --environment https://url
+pac auth create --name MyOrg-SPN --applicationId 00000000-0000-0000-0000-000000000000 --clientSecret $clientSecret --tenant 00000000-0000-0000-0000-000000000000 --url https://url
 ```
 
 To push project
