@@ -6,5 +6,7 @@ Add a static image to an audio clip to upload to youtube
 
 From mp4 to mp3
 ```
-.\ffmpeg -i video.mp4 -b:a 192K -vn music.mp3
+.\ffmpeg -i in.mp4 -q:a 0 -map a out.mp3
+
+.\ffmpeg -vn -sn -dn -i input.mp4 -codec:a libmp3lame -qscale:a 4 output.mp3
 ```
